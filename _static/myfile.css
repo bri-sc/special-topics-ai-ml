@@ -1,0 +1,16 @@
+p {
+    text-align: justify;
+}
+
+div.bristol {
+    border-left-color: #b01c2d9f
+}
+div.bristol .admonition-title {
+    background-color: #b01c2d;
+    color: #ffffff;
+}
+
+div.bristol > .admonition-title:after {
+    content: '\f19d';
+    color: #ffffff
+}

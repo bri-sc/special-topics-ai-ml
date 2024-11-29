@@ -1,0 +1,29 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Background
+  chapters:
+  - file: setup/tools
+- caption: Mathematics of Machine Learning
+  chapters:
+  - file: maths/maths
+  - file: maths/linear-algebra
+    sections:
+    - file: maths/vectors
+    - file: maths/vector-operations
+    - file: maths/linear-transformations
+    - file: maths/matrices
+    - file: maths/matrices-numpy
+    - file: maths/eigenthings
+  - file: maths/calculus
+    sections:
+    - file: maths/derivatives
+    - file: maths/optimisation
+    - file: maths/autodifferentiation
+  - file: maths/probability
+# - caption: Tradiational Machine Learning Methods
+#   chapters:
+#   - file: trad-ml/trad-ml

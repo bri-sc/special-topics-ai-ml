@@ -1,0 +1,9 @@
+name: special-topics
+channels:
+  - conda-forge
+dependences:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - jupyter-book
