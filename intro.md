@@ -38,6 +38,10 @@ The intended learning outcomes for this unit are as follows:
 For further information about this unit and access to the exercise notebooks for each in-person workshop, see the appropriate page on Blackboard Learn. 
 ```
 
+## Authors
+
+- [Andrew R. McCluskey](https://mccluskey.scot)
+
 ## Table of Contents
 
 ```{tableofcontents}

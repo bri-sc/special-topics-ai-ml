@@ -18,12 +18,39 @@ parts:
     - file: maths/matrices
     - file: maths/matrices-numpy
     - file: maths/eigenthings
+    - file: maths/svd
   - file: maths/calculus
     sections:
     - file: maths/derivatives
     - file: maths/optimisation
     - file: maths/autodifferentiation
+    - file: maths/integration
+    - file: maths/fourier
   - file: maths/probability
-# - caption: Tradiational Machine Learning Methods
-#   chapters:
-#   - file: trad-ml/trad-ml
+    sections: 
+    - file: maths/distributions
+    - file: maths/scipy-stats
+- caption: Tradiational Machine Learning Methods
+  chapters:
+  - file: trad-ml/pca
+  - file: trad-ml/clustering
+  - file: trad-ml/linear-regression
+  - file: trad-ml/logistic-regression
+  - file: trad-ml/decision-trees
+  - file: trad-ml/random-forests
+  - file: trad-ml/svm
+- caption: Probabilistic Modelling
+  chapters:
+  - file: prob-modelling/prob-data
+  - file: prob-modelling/likelihood
+  - file: prob-modelling/likelihood-sampling
+    sections:
+    - file: prob-modelling/monte-carlo
+    - file: prob-modelling/mcmc
+  - file: prob-modelling/bayes
+    sections:
+    - file: prob-modelling/priors
+    - file: prob-modelling/posteriors
+    - file: prob-modelling/why-logs
+    - file: prob-modelling/evidence-estimation
+    - file: prob-modelling/nested-sampling

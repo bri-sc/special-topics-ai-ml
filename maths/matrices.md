@@ -34,15 +34,6 @@ width: 180px
 A visual description of a matrix transpose.
 ```
 
-```{admonition} Task
-:class: important
-**Write** $\mathbf{B}^\top$, $\mathbf{P}^\top$ and $\mathbf{K}^\top$,
-
-$$
-\mathbf{B} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \;\;\;\;\;\;\;\; \mathbf{P} = \begin{bmatrix} 1 & 2 & 4 & 8 & 16 \end{bmatrix},  \;\;\;\;\;\;\;\; \mathbf{K} = \begin{bmatrix} \alpha & \beta & \gamma \\ \delta & \epsilon & \zeta \end{bmatrix}.
-$$(transpose-exercise)
-```
-
 ## Basis Set of Vectors as a Matrix
 
 The standard basis set of vectors, shown in {numref}`matrices-basis` and defined in Eqn. {eq}`basis-vectors` can be written as a single matrix, where the first column is the $\mathbf{i}$ column vector and the second is the $\mathbf{j}$ column vector. 
@@ -68,11 +59,6 @@ $$
 $$ (matrix-multiplication)
 
 This vector can also be written as $-3\mathbf{i} + 2\mathbf{j}$, as in Eqn. {eq}`substitution`.
-
-```{admonition} Task
-:class: important
-**Write** the matrix form of the three linear transformations in {numref}`matrices-exercise`. 
-```
 
 ## Inverse of a Matrix
 

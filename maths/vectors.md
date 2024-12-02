@@ -70,16 +70,3 @@ The basis vectors outlining the particle vectors.
 
 Consider the notation in Eqn. {eq}`vectors`, where the vectors are described as vertical arrays of numbers. 
 This way of thinking about vectors can help us when we want to use NumPy arrays to codify these. 
-
-````{admonition} Task
-:class: important
-**Write**, using both notation styles shown above, values for the vectors $\mathbf{s}_1$, $\mathbf{s}_2$, and $\mathbf{s}_3$ that are shown in {numref}`particles-exercise`.
-
-```{figure} ../images/particles-exercise.png
----
-name: particles-exercise
-height: 300px
----
-A set of vectors that describe the new positions of particles in space.
-```
-````

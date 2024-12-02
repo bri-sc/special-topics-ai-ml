@@ -66,18 +66,4 @@ $$
 $$ (inverse-basis-vectors)
 
 The ability to describe linear transformations with [matrices](./matrices.md) which will be discussed later, will help with the definition of inverse linear transformations. 
-
-````{admonition} Task
-:class: important
-Write the new basis set of vectors that are shown in (a), (b) and (c) of {numref}`matrices-exercise`. 
-
-```{figure} ../images/matrices-exercise.png
----
-name: matrices-exercise
-height: 620px
----
-Three linear transformations of the basis set of vectors.
-```
-````
-
 Performing linear transformations of vectors is extremely important in a range of applications across scientific computing, from the modelling of molecules in chemistry to the development of computer graphics that appear in video games. 
