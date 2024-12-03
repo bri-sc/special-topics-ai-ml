@@ -30,9 +30,21 @@ parts:
     sections: 
     - file: maths/distributions
     - file: maths/scipy-stats
+- caption: Dimensionality Reduction
+  chapters:
+  - file: dim-reduction/dimensionality-reduction
+  - file: dim-reduction/pca
+    sections:
+    - file: dim-reduction/pca-algorithm
+    - file: dim-reduction/pca-interpretation
+  - file: dim-reduction/tsne
 - caption: Tradiational Machine Learning Methods
   chapters:
-  - file: trad-ml/pca
+  - file: trad-ml/dimensionality-reduction
+    sections:
+    - file: trad-ml/pca
+    - file: trad-ml/tsne
+    - file: trad-ml/umap
   - file: trad-ml/clustering
   - file: trad-ml/linear-regression
   - file: trad-ml/logistic-regression
