@@ -10,5 +10,6 @@ dependencies:
   - jupyter-book
   - pandas
   - scikit-learn
+  - seaborn
   - pip:
     - sphinxcontrib-mermaid
