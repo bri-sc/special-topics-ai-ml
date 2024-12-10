@@ -38,14 +38,23 @@ parts:
     - file: dim-reduction/pca-algorithm
     - file: dim-reduction/pca-interpretation
   - file: dim-reduction/tsne
+    sections:
+    - file: dim-reduction/tsne-digits
+- caption: Clustering
+  chapters: 
+  - file: clustering/clustering
+  - file: clustering/kmeans
+    sections:
+    - file: clustering/kmeans-algorithm
+    - file: clustering/elbow-plot
+  - file: clustering/gmm
+    sections:
+    - file: clustering/gmm-algorithm
+  - file: clustering/dendrogram
+    sections:
+    - file: clustering/hbdscan-algorithm
 - caption: Tradiational Machine Learning Methods
   chapters:
-  - file: trad-ml/dimensionality-reduction
-    sections:
-    - file: trad-ml/pca
-    - file: trad-ml/tsne
-    - file: trad-ml/umap
-  - file: trad-ml/clustering
   - file: trad-ml/linear-regression
   - file: trad-ml/logistic-regression
   - file: trad-ml/decision-trees
