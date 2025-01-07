@@ -42,7 +42,8 @@ For further information about this unit and access to the exercise notebooks for
 
 - [Andrew R. McCluskey](https://mccluskey.scot)
 
-## Table of Contents
+## Bibliography
 
-```{tableofcontents}
+```{bibliography}
+:style: unsrt
 ```

@@ -22,3 +22,8 @@ A popular example that is used to talk about calculus is where you know the posi
 The derivative of position with respect to time will give the velocity (speed) of the car. 
 However, if we know the velocity as a function of time, we can find the position, by integration. 
 ```
+
+## Further Reading 
+
+To get a more fundamental understanding of calculus, I highly recomment the 3Blue1Brown video series on the subject. 
+You can find the series [playlist on YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr).
