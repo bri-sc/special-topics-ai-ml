@@ -7,6 +7,9 @@ on:
 
 jobs:
   deploy-book:
+    defaults:
+      run:
+        shell: bash -l {0}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -16,9 +19,12 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v3.1.0
+      with:
+        activate-environment: special-topics
+        environment-file: _static/special-topics.yml
+        auto-activate-base: false
 
     - name: Build the book
       run: |
