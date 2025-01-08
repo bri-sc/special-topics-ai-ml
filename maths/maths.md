@@ -1,8 +1,8 @@
 # Why Maths? 
 
-Machine learning is an inherently mathematical subject, with lienar algebra, statistics, and probability at its heart.
-Therefore, to ensure a comprehensive understanding of the topics in machine learning and artificial intelligence it is necessary to introduce important mathematical aspects. 
-Some of the mathematics we cover here may already be familiar, but hopefully the recap is useful (or perhaps it is interesting to hear a slightly different explanation).
+Machine learning is an inherently mathematical subject, with linear algebra, calculus, and probability at its heart.
+Therefore, to ensure a comprehensive understanding of machine learning and artificial intelligence topics, it is necessary to introduce important mathematical aspects. 
+Some of the mathematics we cover here may already be familiar, but hopefully, the recap is helpful (or perhaps it is interesting to hear a slightly different explanation).
 
 ```{figure} ./../images/ml-joke.jpeg
 ---
