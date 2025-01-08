@@ -30,48 +30,48 @@ parts:
     sections: 
     - file: maths/distributions
     - file: maths/scipy-stats
-- caption: Dimensionality Reduction
-  chapters:
-  - file: dim-reduction/dimensionality-reduction
-  - file: dim-reduction/pca
-    sections:
-    - file: dim-reduction/pca-algorithm
-    - file: dim-reduction/pca-interpretation
-  - file: dim-reduction/tsne
-    sections:
-    - file: dim-reduction/tsne-digits
-- caption: Clustering
-  chapters: 
-  - file: clustering/clustering
-  - file: clustering/kmeans
-    sections:
-    - file: clustering/kmeans-algorithm
-    - file: clustering/elbow-plot
-  - file: clustering/gmm
-    sections:
-    - file: clustering/gmm-algorithm
-  - file: clustering/dendrogram
-    sections:
-    - file: clustering/hbdscan-algorithm
-- caption: Tradiational Machine Learning Methods
-  chapters:
-  - file: trad-ml/linear-regression
-  - file: trad-ml/logistic-regression
-  - file: trad-ml/decision-trees
-  - file: trad-ml/random-forests
-  - file: trad-ml/svm
-- caption: Probabilistic Modelling
-  chapters:
-  - file: prob-modelling/prob-data
-  - file: prob-modelling/likelihood
-  - file: prob-modelling/likelihood-sampling
-    sections:
-    - file: prob-modelling/monte-carlo
-    - file: prob-modelling/mcmc
-  - file: prob-modelling/bayes
-    sections:
-    - file: prob-modelling/priors
-    - file: prob-modelling/posteriors
-    - file: prob-modelling/why-logs
-    - file: prob-modelling/evidence-estimation
-    - file: prob-modelling/nested-sampling
+# - caption: Dimensionality Reduction
+#   chapters:
+#   - file: dim-reduction/dimensionality-reduction
+#   - file: dim-reduction/pca
+#     sections:
+#     - file: dim-reduction/pca-algorithm
+#     - file: dim-reduction/pca-interpretation
+#   - file: dim-reduction/tsne
+#     sections:
+#     - file: dim-reduction/tsne-digits
+# - caption: Clustering
+#   chapters: 
+#   - file: clustering/clustering
+#   - file: clustering/kmeans
+#     sections:
+#     - file: clustering/kmeans-algorithm
+#     - file: clustering/elbow-plot
+#   - file: clustering/gmm
+#     sections:
+#     - file: clustering/gmm-algorithm
+#   - file: clustering/dendrogram
+#     sections:
+#     - file: clustering/hbdscan-algorithm
+# - caption: Tradiational Machine Learning Methods
+#   chapters:
+#   - file: trad-ml/linear-regression
+#   - file: trad-ml/logistic-regression
+#   - file: trad-ml/decision-trees
+#   - file: trad-ml/random-forests
+#   - file: trad-ml/svm
+# - caption: Probabilistic Modelling
+#   chapters:
+#   - file: prob-modelling/prob-data
+#   - file: prob-modelling/likelihood
+#   - file: prob-modelling/likelihood-sampling
+#     sections:
+#     - file: prob-modelling/monte-carlo
+#     - file: prob-modelling/mcmc
+#   - file: prob-modelling/bayes
+#     sections:
+#     - file: prob-modelling/priors
+#     - file: prob-modelling/posteriors
+#     - file: prob-modelling/why-logs
+#     - file: prob-modelling/evidence-estimation
+#     - file: prob-modelling/nested-sampling

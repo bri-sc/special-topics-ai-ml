@@ -15,3 +15,4 @@ dependencies:
   - sympy
   - pip:
     - sphinxcontrib-mermaid
+    - jax

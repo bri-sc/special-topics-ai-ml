@@ -16,14 +16,12 @@ The core components of calculus for the function $y$ (solid blue line); (left) t
 The core components of calculus are **differentiation**, which describes the rate of change of some function, and **integration**, which handles accumulation when some variable changes. 
 These two concepts are often taught as opposites, in this section, we will look at why this is. 
 
-```{admonition} Example
-:class: tip
 A popular example that is used to talk about calculus is where you know the position of a car as a function of time. 
 The derivative of position with respect to time will give the velocity (speed) of the car. 
 However, if we know the velocity as a function of time, we can find the position, by integration. 
-```
 
-## Further Reading 
-
+```{admonition} Further Reading 
+:class: reading
 To get a more fundamental understanding of calculus, I highly recomment the 3Blue1Brown video series on the subject. 
 You can find the series [playlist on YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr).
+```

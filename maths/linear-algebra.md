@@ -12,7 +12,8 @@ The terms vector and matrix may not be familiar, but they will be introduced in 
 ```
 ````
 
-## Further Reading
-
+```{admonition} Further Reading
+:class: reading
 Much of the conceptual explanation in this section is built from the videos of 3Blue1Brown. 
 In particular, the [series on linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) gives a great explanation of many of the concepts. 
+```

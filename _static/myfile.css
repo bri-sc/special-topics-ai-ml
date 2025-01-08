@@ -10,3 +10,16 @@ div.bristol > .admonition-title:after {
     content: '\f19d';
     color: #ffffff
 }
+
+div.reading {
+    border-left-color: #5CDB939f
+}
+div.reading .admonition-title {
+    background-color: #5CDB93;
+    color: #000000;
+}
+
+div.reading > .admonition-title:after {
+    content: '\f02d';
+    color: #000000
+}
