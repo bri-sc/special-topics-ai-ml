@@ -33,5 +33,5 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: html
+        name: book 
         path: _build
