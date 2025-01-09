@@ -44,6 +44,12 @@ However, this is limited to using packages distributed through the Python Packag
 A popular alternative is `conda` (or `mamba`). 
 `conda` and `mamba` have the added functionality to be able to install [conda packages](https://anaconda.org/anaconda/repo) -- conda packages are more flexible than PyPI packages (it is easier to build a conda package with non-Python code included).
 
+```{admonition} Conda Cheatsheet
+:class: reading
+It can, at times, be hard to remember all the different `conda` commands. 
+Access to a [cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) can eb valuable in times like these.
+```
+
 To ensure that you have all of the necessary packages to work effectively with this course book, we provide the following environment file: [special-topics.yml](../_static/special-topics.yml). 
 To install this environment, you should install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) or [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html), and then create the environment by downloading the environment file and running the following command in the bash terminal:
 ```bash 

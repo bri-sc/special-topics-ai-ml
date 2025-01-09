@@ -59,14 +59,14 @@ A plot of the Poisson distribution for three different values of the $\lambda$ p
 
 ````{margin}
 ```{note}
-The normal distribution is also known as a Gaussian distribution, after [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), the third time he has been mentioned.
+The normal distribution is also known as a Gaussian distribution, after [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), the second time he has been mentioned.
 ```
 ````
 The most important continuous distribution is the [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). 
 The importance of this distribution comes from its role as the result of the **central limit theorem**. 
 ```{admonition} Central Limit Theorem
-:class: definition
-The average of many observations of a random variable is itself a random variable -- whose distribution converges to a normal distribution. 
+:class: tip 
+The central limit theorem states that the average of many observations of a random variable is itself a random variable -- whose distribution converges to a normal distribution. 
 ```
 Therefore, the normal distribution is commonly used to describe physical measurements. 
 In fact, when you see error bars on a plot, these usually describe a normal distribution's variance. 

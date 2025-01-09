@@ -24,15 +24,15 @@ div.reading > .admonition-title:after {
     color: #000000
 }
 
-div.definition {
-    border-left-color: #0000009f
+div.thinking {
+    border-left-color: #D55E009f
 }
-div.definition .admonition-title {
-    background-color: #000000;
+div.thinking .admonition-title {
+    background-color: #D55E00;
     color: #ffffff;
 }
 
-div.definition > .admonition-title:after {
-    content: '\f00c';
+div.thinking > .admonition-title:after {
+    content: '\f5dc';
     color: #ffffff
 }
