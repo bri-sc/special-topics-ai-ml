@@ -9,6 +9,7 @@ sphinx:
       logo:
         image_light: _static/logo_light.png
         image_dark: _static/logo_dark.png
+    nb_execution_show_tb: True
   extra_extensions:
     - sphinxcontrib.mermaid
 copyright: "2025"
@@ -40,3 +41,6 @@ html:
   # use_repository_button: true
 
 only_build_toc_files: true
+
+execute:
+  execute_notebooks: cache

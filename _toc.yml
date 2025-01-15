@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: intro 
 parts:
 - caption: Background
   chapters:
@@ -30,29 +30,28 @@ parts:
     sections: 
     - file: maths/distributions
     - file: maths/scipy-stats
-# - caption: Dimensionality Reduction
-#   chapters:
-#   - file: dim-reduction/dimensionality-reduction
-#   - file: dim-reduction/pca
-#     sections:
-#     - file: dim-reduction/pca-algorithm
-#     - file: dim-reduction/pca-interpretation
-#   - file: dim-reduction/tsne
-#     sections:
-#     - file: dim-reduction/tsne-digits
-# - caption: Clustering
-#   chapters: 
-#   - file: clustering/clustering
-#   - file: clustering/kmeans
-#     sections:
-#     - file: clustering/kmeans-algorithm
-#     - file: clustering/elbow-plot
-#   - file: clustering/gmm
-#     sections:
-#     - file: clustering/gmm-algorithm
-#   - file: clustering/dendrogram
-#     sections:
-#     - file: clustering/hbdscan-algorithm
+- caption: Dimensionality Reduction
+  chapters:
+  - file: dim-reduction/dimensionality-reduction
+  - file: dim-reduction/pca
+    sections:
+    - file: dim-reduction/pca-algorithm
+    - file: dim-reduction/pca-interpretation
+  - file: dim-reduction/tsne
+    sections:
+    - file: dim-reduction/tsne-digits
+- caption: Clustering
+  chapters: 
+  - file: clustering/clustering
+  - file: clustering/kmeans
+    sections:
+    - file: clustering/kmeans-algorithm
+    - file: clustering/elbow-plot
+  - file: clustering/gmm
+    sections:
+    - file: clustering/gmm-algorithm
+  - file: clustering/dendrogram
+  - file: clustering/dbscan
 # - caption: Tradiational Machine Learning Methods
 #   chapters:
 #   - file: trad-ml/linear-regression

@@ -2,17 +2,19 @@ name: special-topics
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - pip
-  - jupyterlab
-  - numpy
-  - matplotlib
-  - jupyter-book
-  - pandas
-  - scikit-learn
-  - scikit-image
-  - seaborn
-  - sympy
+  - python=3.11.11
+  - pip=24.3.1
+  - sphinx=7.4.7
+  - jupyterlab=4.3.4
+  - numpy=2.2.1
+  - scipy=1.15.0
+  - matplotlib=3.10.0
+  - jupyter-book=1.0.3
+  - pandas=2.2.3
+  - scikit-learn=1.6.1
+  - scikit-image=0.25.0
+  - seaborn=0.13.2
+  - sympy=1.13.3
   - pip:
-    - sphinxcontrib-mermaid
-    - jax
+    - sphinxcontrib-mermaid==1.0.0
+    - jax==0.4.38
