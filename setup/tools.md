@@ -59,7 +59,11 @@ To activate this conda environment, the following command can be used:
 ```bash
 conda activate special-topics
 ```
-You should be able to access all the necessary packages to work through this course book from this environment. 
+You should be able to access all the necessary packages to work through this course book from this environment.
+To remove the environment, use the following command: 
+```bash
+conda env remove -n special-topics
+``` 
 
 ```{admonition} Bristol Only
 :class: bristol
