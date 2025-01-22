@@ -53,13 +53,27 @@ parts:
     - file: clustering/gmm-algorithm
   - file: clustering/dendrogram
   - file: clustering/dbscan
-# - caption: Tradiational Machine Learning Methods
-#   chapters:
-#   - file: trad-ml/linear-regression
-#   - file: trad-ml/logistic-regression
-#   - file: trad-ml/decision-trees
-#   - file: trad-ml/random-forests
-#   - file: trad-ml/svm
+- caption: Classification
+  chapters:
+  - file: classification/classification
+  - file: classification/logistic-regression
+    sections:
+    - file: classification/toy-example
+  - file: classification/svm
+    sections:
+    - file: classification/kernel-trick
+  - file: classification/decision-trees
+    sections:
+    - file: classification/random-forests
+  - file: classification/using-classification
+- caption: Regression
+  chapters:
+  - file: regression/regression
+  - file: regression/linear-regression
+    sections: 
+    - file: regression/multiple-linear-regression
+  - file: regression/polynomial-regression
+  - file: regression/svr
 # - caption: Probabilistic Modelling
 #   chapters:
 #   - file: prob-modelling/prob-data
