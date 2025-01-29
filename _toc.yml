@@ -74,14 +74,15 @@ parts:
     - file: regression/multiple-linear-regression
   - file: regression/polynomial-regression
   - file: regression/svr
-# - caption: Probabilistic Modelling
-#   chapters:
-#   - file: prob-modelling/prob-data
-#   - file: prob-modelling/likelihood
-#   - file: prob-modelling/likelihood-sampling
-#     sections:
-#     - file: prob-modelling/monte-carlo
-#     - file: prob-modelling/mcmc
+- caption: Probabilistic Modelling
+  chapters:
+  - file: prob-modelling/prob-data
+  - file: prob-modelling/likelihood
+  - file: prob-modelling/likelihood-sampling
+    sections:
+    - file: prob-modelling/monte-carlo
+    - file: prob-modelling/mcmc
+    - file: prob-modelling/pymc
 #   - file: prob-modelling/bayes
 #     sections:
 #     - file: prob-modelling/priors
