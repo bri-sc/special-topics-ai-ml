@@ -17,6 +17,7 @@ dependencies:
   - sympy=1.13.3
   - pytables=3.10.2
   - pymc=5.20.0
+  - ipywidgets=8.0.7
   - pip:
     - sphinxcontrib-mermaid==1.0.0
     - jax==0.4.38
