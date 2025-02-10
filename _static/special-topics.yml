@@ -21,3 +21,4 @@ dependencies:
   - pip:
     - sphinxcontrib-mermaid==1.0.0
     - jax==0.4.38
+    - ultranest==4.4.0

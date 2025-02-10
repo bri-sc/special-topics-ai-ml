@@ -83,10 +83,13 @@ parts:
     - file: prob-modelling/monte-carlo
     - file: prob-modelling/mcmc
     - file: prob-modelling/pymc
-#   - file: prob-modelling/bayes
-#     sections:
-#     - file: prob-modelling/priors
-#     - file: prob-modelling/posteriors
-#     - file: prob-modelling/why-logs
-#     - file: prob-modelling/evidence-estimation
-#     - file: prob-modelling/nested-sampling
+  - file: prob-modelling/bayes
+    sections:
+    - file: prob-modelling/priors
+    - file: prob-modelling/posteriors
+  - file: prob-modelling/why-logs
+  - file: prob-modelling/evidence-estimation
+    sections:
+    - file: prob-modelling/model-comparison
+    - file: prob-modelling/nested-sampling
+    - file: prob-modelling/ultranest
