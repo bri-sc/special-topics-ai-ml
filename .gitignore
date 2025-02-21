@@ -3,3 +3,4 @@ _build
 **.afdesign\~lock\~
 worksheets
 **__pycache__
+data/FashionMNIST

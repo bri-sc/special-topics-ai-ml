@@ -4,6 +4,8 @@
 format: jb-book
 root: intro 
 parts:
+
+# WEEK 13
 - caption: Background
   chapters:
   - file: setup/tools
@@ -31,6 +33,7 @@ parts:
     sections: 
     - file: maths/distributions
     - file: maths/scipy-stats
+# WEEK 14
 - caption: Dimensionality Reduction
   chapters:
   - file: dim-reduction/dimensionality-reduction
@@ -53,6 +56,7 @@ parts:
     - file: clustering/gmm-algorithm
   - file: clustering/dendrogram
   - file: clustering/dbscan
+# WEEK 15
 - caption: Classification
   chapters:
   - file: classification/classification
@@ -74,6 +78,7 @@ parts:
     - file: regression/multiple-linear-regression
   - file: regression/polynomial-regression
   - file: regression/svr
+# WEEK 16
 - caption: Probabilistic Modelling
   chapters:
   - file: prob-modelling/prob-data
@@ -83,6 +88,7 @@ parts:
     - file: prob-modelling/monte-carlo
     - file: prob-modelling/mcmc
     - file: prob-modelling/pymc
+# WEEK 17
   - file: prob-modelling/bayes
     sections:
     - file: prob-modelling/priors
@@ -93,3 +99,36 @@ parts:
     - file: prob-modelling/model-comparison
     - file: prob-modelling/nested-sampling
     - file: prob-modelling/ultranest
+# WEEK 19
+- caption: Neural Networks
+  chapters:
+  - file: neural-networks/neural-networks
+  - file: neural-networks/perceptron
+    sections:
+    - file: neural-networks/multilayer-perceptron
+  - file: neural-networks/training
+  - file: neural-networks/build-your-own
+# # WEEK 20
+#   - file: neural-networks/convolutional-neural-networks
+#     sections:
+#     - file: neural-networks/how-a-cnn-works
+#     - file: neural-networks/cnns-for-images
+#   - file: neural-networks/recurrent-neural-networks
+#   - file: neural-networks/working-with-nn
+#     sections:
+#     - file: neural-networks/keras
+#     - file: neural-networks/tensorflow
+#     - file: neural-networks/pytorch
+#   - file: neural-networks/transfer-learning
+# # WEEK 21
+# - caption: Reinforcement Learning
+#   chapters:
+#   - file: reinforcement-learning/reinforcement-learning
+# # WEEK 22
+# - caption: Generative Adversarial Networks
+#   chapters:
+#   - file: gans/gans
+# # WEEK 23
+# - caption: Explainable Artificial Intelligence
+#   chapters:
+#   - file: explainable-ai/explainable-ai
