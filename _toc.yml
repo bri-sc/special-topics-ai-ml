@@ -109,17 +109,14 @@ parts:
   - file: neural-networks/training
   - file: neural-networks/build-your-own
 # # WEEK 20
-#   - file: neural-networks/convolutional-neural-networks
-#     sections:
-#     - file: neural-networks/how-a-cnn-works
-#     - file: neural-networks/cnns-for-images
-#   - file: neural-networks/recurrent-neural-networks
-#   - file: neural-networks/working-with-nn
-#     sections:
-#     - file: neural-networks/keras
-#     - file: neural-networks/tensorflow
-#     - file: neural-networks/pytorch
-#   - file: neural-networks/transfer-learning
+  - file: neural-networks/recurrent-neural-networks
+    sections:
+    - file: neural-networks/lstm
+  - file: neural-networks/convolutional-neural-networks
+    sections:
+    - file: neural-networks/convolutional-layers
+    - file: neural-networks/pooling
+    - file: neural-networks/build-a-cnn
 # # WEEK 21
 # - caption: Reinforcement Learning
 #   chapters:
@@ -130,5 +127,7 @@ parts:
 #   - file: gans/gans
 # # WEEK 23
 # - caption: Explainable Artificial Intelligence
+## PART OF THIS SHOULD BE INTERPRETABILITY OF CNN FILTERS.
 #   chapters:
 #   - file: explainable-ai/explainable-ai
+
