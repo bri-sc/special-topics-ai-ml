@@ -123,6 +123,7 @@ parts:
   - file: reinforcement-learning/reinforcement-learning
   - file: reinforcement-learning/gymnasium
   - file: reinforcement-learning/policy-search
+  - file: reinforcement-learning/a-nn-policy
 # # WEEK 22
 # - caption: Generative Adversarial Networks
 #   chapters:
