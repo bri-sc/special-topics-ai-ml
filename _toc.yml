@@ -117,10 +117,12 @@ parts:
     - file: neural-networks/convolutional-layers
     - file: neural-networks/pooling
     - file: neural-networks/build-a-cnn
-# # WEEK 21
-# - caption: Reinforcement Learning
-#   chapters:
-#   - file: reinforcement-learning/reinforcement-learning
+# WEEK 21
+- caption: Reinforcement Learning
+  chapters:
+  - file: reinforcement-learning/reinforcement-learning
+  - file: reinforcement-learning/gymnasium
+  - file: reinforcement-learning/policy-search
 # # WEEK 22
 # - caption: Generative Adversarial Networks
 #   chapters:
