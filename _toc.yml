@@ -124,10 +124,13 @@ parts:
   - file: reinforcement-learning/gymnasium
   - file: reinforcement-learning/policy-search
   - file: reinforcement-learning/a-nn-policy
-# # WEEK 22
-# - caption: Generative Adversarial Networks
-#   chapters:
-#   - file: gans/gans
+# WEEK 22
+- caption: Generative Adversarial Networks
+  chapters:
+  - file: gans/gans
+  - file: gans/building-a-gan
+    sections:
+    - file: gans/problems-with-gans
 # # WEEK 23
 # - caption: Explainable Artificial Intelligence
 ## PART OF THIS SHOULD BE INTERPRETABILITY OF CNN FILTERS.
