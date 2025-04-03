@@ -43,7 +43,6 @@ For further information about this unit and access to the exercise notebooks for
 
 - Andrew R. McCluskey (Bristol)
 - Harry Richardson (Bristol)
-- Krystof Chrappova (Bristol)
 
 ## Acknowledgements
 
