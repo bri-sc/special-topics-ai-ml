@@ -45,6 +45,11 @@ For further information about this unit and access to the exercise notebooks for
 - Harry Richardson (Bristol)
 - Krystof Chrappova (Bristol)
 
+## Acknowledgements
+
+We thank the following: 
+- Pavan Ponupureddi for identifying a mistake in the [PCA Algorithm](./dim-reduction/pca-algorithm.ipynb) section. 
+
 ## Bibliography
 
 ```{bibliography}
