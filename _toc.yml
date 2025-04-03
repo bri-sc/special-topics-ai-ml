@@ -118,18 +118,16 @@ parts:
     - file: neural-networks/pooling
     - file: neural-networks/build-a-cnn
 # WEEK 21
-- caption: Reinforcement Learning
+- caption: Advanced Neural Networks
   chapters:
   - file: reinforcement-learning/reinforcement-learning
-  - file: reinforcement-learning/gymnasium
-  - file: reinforcement-learning/policy-search
-  - file: reinforcement-learning/a-nn-policy
-# WEEK 22
-- caption: Generative Adversarial Networks
-  chapters:
+    sections
+    - file: reinforcement-learning/gymnasium 
+    - file: reinforcement-learning/policy-search
+    - file: reinforcement-learning/a-nn-policy
   - file: gans/gans
-  - file: gans/building-a-gan
     sections:
+    - file: gans/building-a-gan
     - file: gans/problems-with-gans
 # # WEEK 23
 # - caption: Explainable Artificial Intelligence
