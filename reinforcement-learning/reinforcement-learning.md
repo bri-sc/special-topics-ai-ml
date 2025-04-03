@@ -1,4 +1,4 @@
-# Learning From Our Mistakes
+# Reinforcement Learning
 
 ````{margin}
 ```{note}
