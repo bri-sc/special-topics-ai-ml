@@ -121,7 +121,7 @@ parts:
 - caption: Advanced Neural Networks
   chapters:
   - file: reinforcement-learning/reinforcement-learning
-    sections
+    sections:
     - file: reinforcement-learning/gymnasium 
     - file: reinforcement-learning/policy-search
     - file: reinforcement-learning/a-nn-policy
