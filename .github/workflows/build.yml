@@ -25,6 +25,12 @@ jobs:
         activate-environment: special-topics
         environment-file: _static/special-topics.yml
         auto-activate-base: false
+    
+    - name: cache executed notebooks
+      uses: actions/cache@v4
+      with:
+        path: _build/.jupyter_cache
+        key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
     - name: Build the book
       run: |
