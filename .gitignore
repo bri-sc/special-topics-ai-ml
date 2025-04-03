@@ -5,3 +5,4 @@ worksheets
 **__pycache__
 data/FashionMNIST
 reinforcement-learning/total_rewards.txt
+gans/img_list.txt
