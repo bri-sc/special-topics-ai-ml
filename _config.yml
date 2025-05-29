@@ -38,7 +38,7 @@ html:
   # use_issues_button: true
   # use_repository_button: true
 
-only_build_toc_files: true
+only_build_toc_files: false
 
 execute:
   execute_notebooks: cache

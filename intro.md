@@ -43,11 +43,7 @@ For further information about this unit and access to the exercise notebooks for
 
 - Andrew R. McCluskey (Bristol)
 - Harry Richardson (Bristol)
-
-## Acknowledgements
-
-We thank the following: 
-- Pavan Ponupureddi for identifying a mistake in the [PCA Algorithm](./dim-reduction/pca-algorithm.ipynb) section. 
+- [Other Acknowledgements](./acknowledgements.md)
 
 ## Bibliography
 
