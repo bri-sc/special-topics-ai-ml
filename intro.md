@@ -50,3 +50,8 @@ For further information about this unit and access to the exercise notebooks for
 ```{bibliography}
 :style: unsrt
 ```
+
+## Disclaimer
+
+We track the usage of this webpage with Google Analytics. 
+The purpose of this tracking is to understand how this material is used **not** who is using it. 
