@@ -22,23 +22,6 @@ align: center
 A Venn diagram showing the overlap of artificial intelligence, machine learning, and underlying statistical methods.
 ```
 
-```{admonition} Bristol Only
-:class: bristol
-This is the course book for the Special Topics in Artificial Intelligence and Deep Learning (SCIFM0002). 
-The purpose of this book is to provide access to background reading for the unit; this will be consolidated in the in-person workshops and should be complemented by independent reading around each subject. 
-The in-person workshops will take a flipped format, meaning that it is expected that you will have read through the material in this course book **before** the workshop. 
-The workshops will then focus on gaining practical knowledge of the techniques and allow us to take a deeper dive into the subject areas. 
-
-The intended learning outcomes for this unit are as follows: 
-1. Describe concepts of machine learning, including knowledge representation and decision making;
-2. Apply machine learning to data mining and problem solving;
-3. Compare the principles and advantages of machine learning, deep learning and AI techniques;
-4. Prioritise different optimisation approaches in parameter training;
-5. Compare the successes and failures of current deep and machine learning architectures and relate them to the underlying statistical assumptions.
-
-For further information about this unit and access to the exercise notebooks for each in-person workshop, see the appropriate page on Blackboard Learn. 
-```
-
 ## Contributors 
 
 - Andrew R. McCluskey (Bristol)

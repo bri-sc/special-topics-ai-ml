@@ -19,12 +19,6 @@ As with any tool, the Jupyter Notebook has some drawbacks; in fact, it is a popu
 Personally, I ([Andrew McCluskey](https://mccluskey.scot)) like Notebooks as a place for preparing code and text to be descriptive of the work completed. 
 For example, sharing some analysis with a colleague who is less comfortable with programming or prototyping a solution to a problem before building this into a large piece of code, such as a Python package.
 
-```{admonition} Bristol Only
-:class: bristol
-In the SCIFM0002 unit, you are expected to be **comfortable** working with [Jupyter Notebooks](./jupyter-notebooks.ipynb). 
-How you work with them is up to you: for example, you may want to install the Jupyter application or run your `.ipynb` files through [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks). 
-```
-
 ## Python Environments and Package Management
 
 The Python ecosystem we will be using is vibrant; having so many packages with such a vast range of functionality can be extremely powerful. 
@@ -64,11 +58,3 @@ To remove the environment, use the following command:
 ```bash
 conda env remove -n special-topics
 ``` 
-
-```{admonition} Bristol Only
-:class: bristol
-Similar to the Jupyter Notebooks, it is expected that you will be able to run within a conda environment. 
-If you are running on Windows, installing this within the Windows Subsystem for Linux (WSL) partition is best.
-You should work out how to run Jupyter Notebooks from the WSL partition to ensure you are accessing the relevant conda environment. 
-If you have any trouble, speak to the unit director or one of the PhD student demonstrators.
-```
