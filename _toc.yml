@@ -116,7 +116,7 @@ parts:
     sections:
     - file: reinforcement-learning/gymnasium 
     - file: reinforcement-learning/policy-search
-    - file: reinforcement-learning/a-nn-policy
+    - file: reinforcement-learning/za-nn-policy
   - file: gans/gans
     sections:
     - file: gans/building-a-gan
